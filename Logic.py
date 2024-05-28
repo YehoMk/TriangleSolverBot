@@ -23,11 +23,11 @@ def value_check(value):
         return False
 
 
-TOKEN = "your_telegram_token"
+TOKEN = "your_token"
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot, storage=MemoryStorage())
-ADMINS = [1814281350]
+ADMINS = []
 
 
 @dp.message_handler(commands="start")
