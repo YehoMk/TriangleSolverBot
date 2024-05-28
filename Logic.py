@@ -23,7 +23,7 @@ def value_check(value):
         return False
 
 
-TOKEN = "6641941866:AAFGs0HrlD0bQv71Gf-J65LKpHCkMJmEv44"
+TOKEN = "your_telegram_token"
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot, storage=MemoryStorage())
